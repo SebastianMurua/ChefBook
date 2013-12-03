@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chefbook"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.chefbook.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chefbook.Secundario"
+            android:label="@string/title_activity_secundario" >
+        </activity>
+        <activity
+            android:name="com.chefbook.Entrada"
+            android:label="@string/title_activity_entrada" >
+        </activity>
+        <activity
+            android:name="com.chefbook.Salsas"
+            android:label="@string/title_activity_salsas" >
+        </activity>
+        <activity
+            android:name="com.chefbook.Postres"
+            android:label="@string/title_activity_postres" >
+        </activity>
+        <activity
+            android:name="com.chefbook.Pastas"
+            android:label="@string/title_activity_pastas" >
+        </activity>
+    </application>
+
+</manifest>

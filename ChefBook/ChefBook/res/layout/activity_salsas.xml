@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Salsas" >
+    
+<HorizontalScrollView
+	android:id="@+id/horizontalScrollView1"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+        	android:id="@+id/ivBarbacoa"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/barbacoa"/>
+        <ImageButton 
+            android:id="@+id/ivBechamel"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bechamel"/>
+        <ImageButton 
+            android:id="@+id/ivBolonesa"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bolonesa"/>
+        <ImageButton 
+            android:id="@+id/ivChimichurri"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/chimichurri"/>
+
+                    
+	</LinearLayout>
+</HorizontalScrollView>
+	<WebView
+        android:id="@+id/wbContenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/horizontalScrollView1"
+        android:layout_below="@+id/txtRecetaId"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/txtRecetaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Titulo" />
+</RelativeLayout>

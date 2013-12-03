@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChefBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Iniciar">Ver Recetas</string>
+    <string name="Registrar">Agregar Resetas</string>
+    <string name="title_activity_secundario">Secundario</string>
+    <string name="title_activity_entrada">Entrada</string>
+    <string name="title_activity_salsas">Salsas</string>
+    <string name="title_activity_postres">Postres</string>
+    <string name="title_activity_pastas">Pastas</string>
+
+</resources>
